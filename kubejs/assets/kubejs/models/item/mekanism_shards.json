@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "kubejs:item/ore_processing/mekanism_shards",
+		"layer1": "kubejs:item/ore_processing/mekanism_shards_overlay"
+	}
+}

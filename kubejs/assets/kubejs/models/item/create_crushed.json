@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "kubejs:item/create_crushed",
+		"layer1": "kubejs:item/create_crushed_overlay"
+	}
+}
