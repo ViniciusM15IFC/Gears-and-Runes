@@ -4,7 +4,6 @@ ServerEvents.recipes(event => {
   const addedMaterials = new Set();
 
   global.myMaterials.forEach(entry => {
-    if (!global.validateMaterial(entry)) return;
     if (entry.modId === 'mekanism' || entry.raw === false) return;
 
     const material = entry.material;
@@ -23,6 +22,7 @@ const enrichingInputs = [
   { tag: `forge:ores/${material}`, outputCount: 2, inputCount: 1 },
   { tag: `forge:raw_materials/${material}`, outputCount: 4, inputCount: 3 },
   { tag: `forge:storage_blocks/raw_${material}`, outputCount: 12, inputCount: 1 },
+  { tag: `mekanism:dirty_dusts/${material}`, outputCount: 1, inputCount: 1 }
 ];
 
 enrichingInputs.forEach(data => {

@@ -26,6 +26,7 @@ ServerEvents.recipes(event => {
 
         const ingot = getIngotId(modId, material);
         const dust = entry.makeDust === false ? getDustId(modId, material) : `kubejs:${material}_dust`;
+        const create_crushed = `kubejs:crushed_raw_${material}`;
 
         //
         // ✅ Dusts (smelting/blasting/crushing do Mekanism)
@@ -33,6 +34,8 @@ ServerEvents.recipes(event => {
         if (entry.makeDust) {
             event.smelting(ingot, dust).xp(0.5);
             event.blasting(ingot, dust).xp(0.5);
+
+            event.smelting(ingot, create_crushed).xp(0.5);
 
             event.custom({
                 type: "mekanism:crushing",
@@ -84,8 +87,8 @@ ServerEvents.recipes(event => {
             ? (entry.makeDust === true ? `kubejs:${material}_dust` : getDustId(modId, material))
             : getDustId(modId, material);
 
-        //
-        // ✅ Ender IO
+        /* //
+        // ✅ Ender IO (Desativado)
         //
         event.custom({
             type: "enderio:sag_milling",
@@ -95,7 +98,7 @@ ServerEvents.recipes(event => {
                 { item: itemId, count: defaultCount, chance: 0.33 }
             ],
             energy: 1000
-        });
+        }); */
 
         //
         // ✅ Occultism

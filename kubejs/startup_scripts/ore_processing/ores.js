@@ -12,6 +12,7 @@ global.myMaterials = [
   { material: 'tin', makeDust: false, modId: 'mekanism', raw: true, defaultCount: 1 },
   { material: 'lead', makeDust: false, modId: 'mekanism', raw: true, defaultCount: 1 },
   { material: 'uranium', makeDust: false, modId: 'mekanism', raw: true, defaultCount: 1 },
+  { material: 'cobalt', color: 0x3a6fb0, makeDust: true, modId: 'tconstruct', raw: true, defaultCount: 1 },
   { material: 'inferium', makeDust: false, modId: 'mysticalagriculture', raw: false, defaultCount: 3 },
   { material: 'prosperity', makeDust: false, modId: 'mysticalagriculture', raw: false, defaultCount: 2 },
   { material: 'soulium', makeDust: false, modId: 'mysticalagriculture', raw: false, defaultCount: 2 },
