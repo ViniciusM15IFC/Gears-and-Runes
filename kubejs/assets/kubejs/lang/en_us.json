@@ -1,8 +1,36 @@
 {
+  "block.kubejs.vibranium_block": "Block of Vibranium",
+  "block.kubejs.mithril_block": "Block of Mithril",
+
+  "item.kubejs.vibranium_ingot": "Vibranium Ingot",
+  "item.kubejs.vibranium_nugget": "Vibranium Nugget",
+  "item.kubejs.vibranium_dust": "Vibranium Dust",
+  
+  "item.kubejs.mithril_ingot": "Mithril Ingot",
+  "item.kubejs.mithril_nugget": "Mithril Nugget",
+  "item.kubejs.mithril_dust": "Mithril Dust",
+  
+  "item.kubejs.the_ether": "The Ether",
+
+  "fluid.kubejs.molten_arcane_debris": "Molten Arcane Debris",
+  "fluid.kubejs.molten_fluix": "Molten Fluix",
+  "fluid.kubejs.molten_vibranium": "Molten Vibranium",
+  "fluid.kubejs.molten_mithril": "Molten Mithril",
+  "fluid.kubejs.molten_nitro": "Molten Nitro Crystal",
+  "fluid.kubejs.molten_polonium": "Molten Polonium",
+  "fluid.kubejs.molten_iesnium": "Molten Iesnium",
+
+  "material.tconstruct.vibranium": "Vibranium",
+  "material.tconstruct.mithril": "Mithril",
   "material.tconstruct.refined_obsidian": "Refined Obsidian",
   "material.tconstruct.refined_glowstone": "Refined Glowstone",
-  "material.tconstruct.iesnium": "Iesnium",
-  "material.tconstruct.desh": "Desh",
-  "material.tconstruct.ostrum": "Ostrum",
-  "material.tconstruct.calorite": "Calorite"
+  "material.tconstruct.hdpe": "HDPE",
+  "material.tconstruct.arcane_fabric": "Arcane Fabric",
+
+  "modifier.tconstruct.dwarfs_courtesy": "§6Dwarf's Courtesy",
+  "modifier.tconstruct.dwarfs_courtesy.flavor": "Mythical metal",
+  "modifier.tconstruct.dwarfs_courtesy.description": "Imbues the tool with mithril's magic proprieties.",
+  "modifier.tconstruct.echoes": "§6Echoes from Wakanda",
+  "modifier.tconstruct.echoes.flavor": "Sophisticated Metal",
+  "modifier.tconstruct.echoes.description": "Imbues the tool with vibranium's ressonance proprieties."
 }

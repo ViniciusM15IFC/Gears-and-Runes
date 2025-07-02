@@ -1,0 +1,37 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "tooltip_display": "always",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "each_level": 0.1,
+      "operation": "multiply_base",
+      "slots": ["mainhand", "offhand", "chest", "head", "legs", "feet"],
+      "unique": "echoes.speed"
+    },
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "each_level": 0.1,
+      "operation": "multiply_base",
+      "slots": ["mainhand"],
+      "unique": "echoes.atk_speed"
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "stat": "tconstruct:durability",
+      "operation": "multiply_base",
+      "multiplier": 1.10,
+      "slots": ["mainhand", "offhand", "chest", "head", "legs", "feet"]
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "stat": "tconstruct:mining_speed",
+      "operation": "multiply_base",
+      "multiplier": 1.10,
+      "slots": ["mainhand"]
+    }
+  ]
+}

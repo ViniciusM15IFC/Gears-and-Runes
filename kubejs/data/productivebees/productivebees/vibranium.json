@@ -1,0 +1,21 @@
+{
+  "primaryColor": "#19a290",
+  "secondaryColor": "#1fbbaa",
+  "particleColor": "#19a290",
+  "name": "Vibranium Bee",
+  "flowerTag": "forge:storage_blocks/vibranium",
+  "attributes": {
+    "temper": 1,
+    "endurance": 3,
+    "behavior": 1,
+    "productivity": 3,
+    "weather_tolerance": 2
+  },
+  "createComb": true,
+  "renderer": "default",
+  "default_attributes": {
+    "minecraft:generic.max_health": 10.0,
+    "minecraft:generic.movement_speed": 0.3,
+    "minecraft:generic.attack_damage": 1.0
+  }
+}

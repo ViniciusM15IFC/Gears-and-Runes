@@ -1,0 +1,34 @@
+{
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 2,
+        "name": "tconstruct:kinetic"
+      },
+      {
+        "level": 2,
+        "name": "tconstruct:melee_protection"
+      },
+      {
+        "level": 1,
+        "name": "tconstruct:echoes"
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "level": 2,
+        "name": "tconstruct:pierce"
+      },
+      {
+        "level": 1,
+        "name": "tconstruct:echoes"
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "level": 1,
+        "name": "tconstruct:echoes"
+      }
+    ]
+  }
+}

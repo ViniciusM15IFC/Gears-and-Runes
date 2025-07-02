@@ -1,0 +1,14 @@
+{
+  "tconstruct:made_in_heaven": [
+    "irons_spellbooks:item/arcane_cloth",
+    "tconstruct:gui/modifiers/book"
+  ],
+  "tconstruct:fake_plastic_trees": [
+    "mekanism:item/hdpe_sheet",
+    "tconstruct:gui/modifiers/book"
+  ],
+  "tconstruct:dwarfs_courtesy": [
+    "kubejs:item/mithril_ingot",
+    "tconstruct:gui/modifiers/book"
+  ]
+}

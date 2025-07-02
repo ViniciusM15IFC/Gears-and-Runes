@@ -13,9 +13,6 @@ global.myMaterials = [
   { material: 'lead', makeDust: false, modId: 'mekanism', raw: true, defaultCount: 1 },
   { material: 'uranium', makeDust: false, modId: 'mekanism', raw: true, defaultCount: 1 },
   { material: 'cobalt', color: 0x3a6fb0, makeDust: true, modId: 'tconstruct', raw: true, defaultCount: 1 },
-  { material: 'inferium', makeDust: false, modId: 'mysticalagriculture', raw: false, defaultCount: 3 },
-  { material: 'prosperity', makeDust: false, modId: 'mysticalagriculture', raw: false, defaultCount: 2 },
-  { material: 'soulium', makeDust: false, modId: 'mysticalagriculture', raw: false, defaultCount: 2 },
 ]
 
 global.validateMaterial = function (entry) { // não funciona
@@ -119,7 +116,7 @@ global.validateMaterial = function (entry) { // não funciona
         return;
       }
       event.create(`crushed_raw_${entry.material}`)
-        .texture('kubejs:item/ore_processing/create_crushed')
+        .texture('kubejs:item/create_crushed')
         .color(0, entry.color)
         .tag(`minecraft:raw_materials`)
     },)

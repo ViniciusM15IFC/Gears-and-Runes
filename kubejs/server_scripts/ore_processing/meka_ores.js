@@ -1,5 +1,3 @@
-
-
 ServerEvents.recipes(event => {
   const addedMaterials = new Set();
 

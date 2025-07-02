@@ -1,0 +1,26 @@
+{
+  "color": "FFFCEA99",
+  "fallbacks": [ "metal" ],
+  "generator": {
+    "type": "material_part_textures",
+    "supported_stats": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:plate",
+      "tconstruct:large_plate",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:skull",
+      "tconstruct:plating_helmet",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_shield",
+      "tconstruct:maille"
+    ],
+    "transformer": {
+      "type": "grey_to_color"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "each_level": 200.0,
+      "operation": "addition",
+      "slots": ["chest", "head", "legs", "feet", "mainhand"],
+      "unique": "arcane_empowerment.mana"
+    },
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "each_level": 100.0,
+      "operation": "addition",
+      "slots": ["chest", "head", "legs", "feet", "mainhand"],
+      "unique": "arcane_empowerment.mana2"
+    },
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "each_level": 0.2,
+      "operation": "multiply_base",
+      "slots": ["chest", "head", "legs", "feet"],
+      "unique": "arcane_empowerment.regen"
+    },
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "each_level": 0.2,
+      "operation": "multiply_base",
+      "slots": ["chest", "head", "legs", "feet", "mainhand"],
+      "unique": "arcane_empowerment.power"
+    },
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "each_level": 0.2,
+      "operation": "multiply_base",
+      "slots": ["chest", "head", "legs", "feet", "mainhand"],
+      "unique": "arcane_empowerment.power"
+    },
+
+    {
+      "type": "tconstruct:stat_boost",
+      "stat": "tconstruct:durability",
+      "operation": "add",
+      "flat": 100,
+      "slots": ["chest", "head", "legs", "feet"]
+    }
+  ],
+  "tooltip_display": "always"
+}

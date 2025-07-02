@@ -106,7 +106,9 @@ ServerEvents.recipes(event => {
         event.custom({
             type: "occultism:crushing",
             ingredient: { tag: `forge:ores/${material}` },
-            result: { item: itemId, count: defaultCount * 2 }
+            result: { item: itemId, count: defaultCount * 2 },
+            crushing_time: 200,
+            ignore_crushing_multiplier: false
         });
 
 
